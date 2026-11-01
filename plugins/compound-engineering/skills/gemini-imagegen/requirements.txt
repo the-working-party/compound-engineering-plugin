@@ -1,2 +1,4 @@
 google-genai>=1.0.0
 Pillow>=10.0.0
+# google-genai (httpx) trusts certifi's CA bundle; 2026.10.23 drops the compromised eMudhra/emSign CAs (CVE-2026-111943)
+certifi>=2026.10.23
